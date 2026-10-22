@@ -1,0 +1,64 @@
+name: TV guide
+
+# Once a day: grab four days of public TV listings (iptv-org/epg, no logins) for the sports
+# channels in channels.xml and publish a compact copy as guide.json on the `epg` branch:
+#   https://raw.githubusercontent.com/hannesnie-cmd/sports-tv-guide/epg/guide.json
+# The sports-calendar Worker starts it every morning (workflow_dispatch). The schedule is a
+# backup: it only grabs when today's guide isn't there yet.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "41 5 * * *"
+
+permissions:
+  contents: write     # push the epg branch
+  actions: write      # keep the schedule enabled (GitHub turns it off after 60 days without activity)
+
+concurrency:
+  group: tvguide
+  cancel-in-progress: false
+
+jobs:
+  grab:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Already published today?
+        id: today
+        if: github.event_name == 'schedule'
+        run: |
+          if git fetch --quiet --depth 1 origin epg 2>/dev/null \
+              && [ "$(TZ=UTC git log -1 --format=%cd --date=format-local:%F FETCH_HEAD)" = "$(date -u +%F)" ]; then
+            echo "Today's guide is already published."
+            echo "done=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Grab
+        if: steps.today.outputs.done != 'true'
+        run: |
+          git clone --quiet --depth 1 https://github.com/iptv-org/epg.git grabber
+          cd grabber
+          npm ci --no-audit --no-fund --loglevel=error
+          timeout 12m npm run grab --- --channels=../channels.xml --output=../guide.xml \
+            --days=4 --maxConnections=4 --timeout=20000 || true
+
+      - name: Compact and publish to the epg branch
+        if: steps.today.outputs.done != 'true'
+        run: |
+          test -s guide.xml || { echo "no guide downloaded - keeping yesterday's"; exit 1; }
+          python3 compact.py guide.xml channels.xml out/guide.json
+          cd out
+          git init --quiet -b epg
+          git add guide.json
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+            commit --quiet -m "TV guide $(date -u +%F)"
+          git push --quiet --force \
+            "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" epg
+
+      - name: Keep the schedule alive
+        if: github.event_name == 'schedule'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X PUT "repos/${{ github.repository }}/actions/workflows/tvguide.yml/enable" || true

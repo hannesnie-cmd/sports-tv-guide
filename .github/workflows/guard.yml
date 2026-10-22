@@ -1,0 +1,17 @@
+name: No IPTV credentials
+
+# Fails any push that contains an IPTV user name, password, server URL or playlist.
+# This repo holds public TV listings only; the rule is the same as in sports-calendar.
+on:
+  push:
+
+permissions:
+  contents: read
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+      - run: python3 tools/check_secrets.py

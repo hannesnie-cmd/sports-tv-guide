@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+  <channel site="virgintvgo.virginmedia.com" site_id="1520" lang="en" xmltv_id="SkySportsMainEvent.uk@HD">Sky SportsMainEventHD</channel>
+  <channel site="virgintvgo.virginmedia.com" site_id="1405" lang="en" xmltv_id="TNTSports4.uk@HD">TNT Sports 4 HD</channel>
+  <channel site="virgintvgo.virginmedia.com" site_id="1496" lang="en" xmltv_id="Channel5.uk@HD">Channel 5 HD</channel>
+  <channel site="virgintvgo.virginmedia.com" site_id="1744" lang="en" xmltv_id="TNTSports1.uk@HD">TNT Sports 1 HD</channel>
+  <channel site="virgintvgo.virginmedia.com" site_id="1745" lang="en" xmltv_id="TNTSports2.uk@HD">TNT Sports 2 HD</channel>
+  <channel site="virgintvgo.virginmedia.com" site_id="1761" lang="en" xmltv_id="PremierSports1.ie">Premier Sports 1</channel>
+  <channel site="virgintvgo.virginmedia.com" site_id="1769" lang="en" xmltv_id="SkySportsNFL.uk@HD">Sky Sports NFL HD</channel>
+  <channel site="virgintvgo.virginmedia.com" site_id="1787" lang="en" xmltv_id="SkySportsPremierLeague.uk@HD">Sky Sports PL HD</channel>
+  <channel site="virgintvgo.virginmedia.com" site_id="1837" lang="en" xmltv_id="TNTSports3.uk@HD">TNT Sports 3 HD</channel>
+  <channel site="virgintvgo.virginmedia.com" site_id="1890" lang="en" xmltv_id="SkySportsMix.uk@HD">Sky Sports Mix HD</channel>
+  <channel site="virgintvgo.virginmedia.com" site_id="1922" lang="en" xmltv_id="SkySportsArena.uk@HD">Sky Sports + HD</channel>
+  <channel site="virgintvgo.virginmedia.com" site_id="1924" lang="en" xmltv_id="SkySportsFootball.uk@HD">Sky Sports FootballHD</channel>
+  <channel site="virgintvgo.virginmedia.com" site_id="1961" lang="en" xmltv_id="PremierSports2.ie">Premier Sports 2</channel>
+  <channel site="virgintvgo.virginmedia.com" site_id="2021" lang="en" xmltv_id="">Channel 4HD</channel>
+  <channel site="virgintvgo.virginmedia.com" site_id="2122" lang="en" xmltv_id="">ITV1 HD</channel>
+  <channel site="virgintvgo.virginmedia.com" site_id="2192" lang="en" xmltv_id="BBCOne.uk@LondonHD">BBC ONE London HD</channel>
+  <channel site="web.magentatv.de" site_id="5554" lang="de" xmltv_id="">Sky Sport 10</channel>
+  <channel site="web.magentatv.de" site_id="5555" lang="de" xmltv_id="">Sky Sport Premier League</channel>
+  <channel site="web.magentatv.de" site_id="5556" lang="de" xmltv_id="">Sky Sport Mix</channel>
+  <channel site="web.magentatv.de" site_id="373" lang="de" xmltv_id="DasErste.de@SD">Das Erste</channel>
+  <channel site="web.magentatv.de" site_id="5075" lang="de" xmltv_id="MagentaSport.de@SD">MagentaSport</channel>
+  <channel site="web.magentatv.de" site_id="395" lang="de" xmltv_id="Nitro.de@SD">NITRO</channel>
+  <channel site="web.magentatv.de" site_id="374" lang="de" xmltv_id="ProSieben.de@SD">ProSieben</channel>
+  <channel site="web.magentatv.de" site_id="404" lang="de" xmltv_id="RTL.de@SD">RTL</channel>
+  <channel site="web.magentatv.de" site_id="381" lang="de" xmltv_id="SAT1.de@SD">SAT.1</channel>
+  <channel site="web.magentatv.de" site_id="31" lang="de" xmltv_id="SkySport1.de@SD">Sky Sport Top Event</channel>
+  <channel site="web.magentatv.de" site_id="192" lang="de" xmltv_id="SkySport3.de@SD">Sky Sport 1</channel>
+  <channel site="web.magentatv.de" site_id="212" lang="de" xmltv_id="SkySport4.de@SD">Sky Sport 2</channel>
+  <channel site="web.magentatv.de" site_id="189" lang="de" xmltv_id="SkySport5.de@SD">Sky Sport 3</channel>
+  <channel site="web.magentatv.de" site_id="111" lang="de" xmltv_id="SkySport6.de@SD">Sky Sport 4</channel>
+  <channel site="web.magentatv.de" site_id="114" lang="de" xmltv_id="SkySport7.de@SD">Sky Sport 5</channel>
+  <channel site="web.magentatv.de" site_id="113" lang="de" xmltv_id="SkySport8.de@SD">Sky Sport 6</channel>
+  <channel site="web.magentatv.de" site_id="127" lang="de" xmltv_id="SkySport9.de@SD">Sky Sport 7</channel>
+  <channel site="web.magentatv.de" site_id="261" lang="de" xmltv_id="SkySport10.de@SD">Sky Sport 8</channel>
+  <channel site="web.magentatv.de" site_id="187" lang="de" xmltv_id="SkySport11.de@SD">Sky Sport 9</channel>
+  <channel site="web.magentatv.de" site_id="42" lang="de" xmltv_id="SkySportBundesliga1.de@SD">Sky Sport Bundesliga</channel>
+  <channel site="web.magentatv.de" site_id="206" lang="de" xmltv_id="SkySportBundesliga2.de@SD">Sky Sport Bundesliga 1</channel>
+  <channel site="web.magentatv.de" site_id="211" lang="de" xmltv_id="SkySportBundesliga3.de@SD">Sky Sport Bundesliga 2</channel>
+  <channel site="web.magentatv.de" site_id="199" lang="de" xmltv_id="SkySportBundesliga4.de@SD">Sky Sport Bundesliga 3</channel>
+  <channel site="web.magentatv.de" site_id="232" lang="de" xmltv_id="SkySportBundesliga5.de@SD">Sky Sport Bundesliga 4</channel>
+  <channel site="web.magentatv.de" site_id="234" lang="de" xmltv_id="SkySportBundesliga6.de@SD">Sky Sport Bundesliga 5</channel>
+  <channel site="web.magentatv.de" site_id="231" lang="de" xmltv_id="SkySportBundesliga7.de@SD">Sky Sport Bundesliga 6</channel>
+  <channel site="web.magentatv.de" site_id="258" lang="de" xmltv_id="SkySportBundesliga8.de@SD">Sky Sport Bundesliga 7</channel>
+  <channel site="web.magentatv.de" site_id="219" lang="de" xmltv_id="SkySportBundesliga9.de@SD">Sky Sport Bundesliga 8</channel>
+  <channel site="web.magentatv.de" site_id="237" lang="de" xmltv_id="SkySportBundesliga10.de@SD">Sky Sport Bundesliga 9</channel>
+  <channel site="web.magentatv.de" site_id="4889" lang="de" xmltv_id="SkySportF1.de@SD">Sky Sport F1</channel>
+  <channel site="web.magentatv.de" site_id="190" lang="de" xmltv_id="SkySportNews.de@SD">Sky Sport News</channel>
+  <channel site="web.magentatv.de" site_id="401" lang="de" xmltv_id="Sport1.de@SD">SPORT1</channel>
+  <channel site="web.magentatv.de" site_id="408" lang="de" xmltv_id="ZDF.de@SD">ZDF</channel>
+  <channel site="dazn.com" site_id="1v9s3d9dmt4ph1q4simfgo7ih4" lang="de" logo="https://image.discovery.indazn.com/eu/v3/linear-channel/none/Logo_LTV_DAZN_2/contain/center/center/none/80/68/56/png/image?brand=dazn" xmltv_id="">DAZN 2</channel>
+  <channel site="dazn.com" site_id="bj5o60qt6uoe1clfdsev239pr" lang="de" logo="https://image.discovery.indazn.com/eu/v3/linear-channel/none/Logo_LTV_DAZN_1/contain/center/center/none/80/68/56/png/image?brand=dazn" xmltv_id="">DAZN 1</channel>
+  <channel site="ziggogo.tv" site_id="NL_000001_019401" lang="nl" xmltv_id="NPO1.nl@SD">NPO 1</channel>
+  <channel site="ziggogo.tv" site_id="NL_000007_019181" lang="nl" xmltv_id="RTL7.nl@SD">RTL 7</channel>
+  <channel site="ziggogo.tv" site_id="NL_000231_000000" lang="nl" xmltv_id="ViaplayTV.nl@HD">Viaplay TV</channel>
+  <channel site="ziggogo.tv" site_id="NL_000095_019371" lang="nl" xmltv_id="ZiggoSport2.nl@HD">Ziggo Sport 2</channel>
+  <channel site="ziggogo.tv" site_id="NL_000096_019382" lang="nl" xmltv_id="ZiggoSport3.nl@HD">Ziggo Sport 3</channel>
+  <channel site="ziggogo.tv" site_id="NL_000097_019370" lang="nl" xmltv_id="ZiggoSport4.nl@HD">Ziggo Sport 4</channel>
+  <channel site="ziggogo.tv" site_id="NL_000098_019255" lang="nl" xmltv_id="ZiggoSport5.nl@HD">Ziggo Sport 5</channel>
+  <channel site="ziggogo.tv" site_id="NL_000099_019256" lang="nl" xmltv_id="ZiggoSport6.nl@HD">Ziggo Sport 6</channel>
+  <channel site="ziggogo.tv" site_id="NL_000014_019661" lang="nl" xmltv_id="ZiggoSport.nl@HD">Ziggo Sport</channel>
+  <channel site="ziggogo.tv" site_id="NL_000233_000000" lang="nl" xmltv_id="ZiggoSportExtra.nl@HD">Ziggo Sport Extra</channel>
+  <channel site="webtv.delta.nl" site_id="3036" lang="nl" xmltv_id="ESPN.nl@HD">ESPN 1</channel>
+  <channel site="webtv.delta.nl" site_id="3037" lang="nl" xmltv_id="ESPN2.nl@HD">ESPN 2</channel>
+  <channel site="webtv.delta.nl" site_id="3038" lang="nl" xmltv_id="ESPN3.nl@HD">ESPN 3</channel>
+  <channel site="webtv.delta.nl" site_id="3039" lang="nl" xmltv_id="">ESPN 4</channel>
+  <channel site="epgshare01.online" site_id="IE1#Sky.Sports.F1.HD.ie" lang="en" xmltv_id="">Sky Sports F1 HD</channel>
+</channels>

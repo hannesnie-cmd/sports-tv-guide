@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.pytest_cache/
+site/
+state/
+.DS_Store
+
+# never commit keys or IPTV data
+local/
+*-service-account*.json
+sports-calendar-*.json
+*.m3u
+*.m3u8
