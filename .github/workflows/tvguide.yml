@@ -4,11 +4,15 @@ name: TV guide
 # channels in channels.xml and publish a compact copy as guide.json on the `epg` branch:
 #   https://raw.githubusercontent.com/hannesnie-cmd/sports-tv-guide/epg/guide.json
 # The sports-calendar Worker starts it every morning (workflow_dispatch). The schedule is a
-# backup: it only grabs when today's guide isn't there yet.
+# backup: it only grabs when today's guide isn't there yet. A change to the channel list or the
+# script runs it right away.
 on:
   workflow_dispatch:
   schedule:
     - cron: "41 5 * * *"
+  push:
+    branches: [main]
+    paths: ["channels.xml", "compact.py", ".github/workflows/tvguide.yml"]
 
 permissions:
   contents: write     # push the epg branch
